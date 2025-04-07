@@ -34,9 +34,13 @@ public class condicionais {
             System.out.println("O numero e maior que 5");
         }
 
-        String texto = "Kalled";
-        if (texto.equals("Kalled")){
+        String texto = "Marisa";
+        if (texto.equals("Marisa")){
             System.out.println("O texto e: " + texto);
+        }else if (texto == ("Kalled")){
+            System.out.println("O texto e: " + texto);
+        } else{
+            System.out.println("Nao e nao mano");
         }
         
         int q = 11;
@@ -47,15 +51,15 @@ public class condicionais {
         }
 
 
-        double nota = 8.5;
-        if(nota >= 7){
+        double nota = 6;
+        if(nota == 7){
             System.out.println("Vc esta na media e passou!!");
-        } else if(nota >= 9){
+        } else if(nota == 9){
             System.out.println("Vc tirrou uma nota alta!! Parabens!!");
         } else if (nota == 10){
             System.out.println("Vc tirou a nota maxima PARABENS!!!");
         } else{
-            System.out.println("Estude mais, vc n passou :( )");
+            System.out.println("Estude mais, vc n passou :( ");
         }
 
 
