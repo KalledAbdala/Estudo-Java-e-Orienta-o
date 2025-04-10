@@ -105,7 +105,8 @@ public class Exercicios {
 
 
 
-        System.out.println("\n\nInsira uma letra" + "\n________________________\n");
+        System.out.println("\n\nInsira uma letra" + 
+                    "\n________________________\n");
         char letra = scanner.next().toLowerCase().charAt(0);
 
         switch (letra) {
@@ -114,10 +115,12 @@ public class Exercicios {
             case 'i':
             case 'o':
             case 'u':
-                System.err.println("\nVogal!!!" + "\n________________________");
+                System.err.println("\nVogal!!!" + 
+                            "\n________________________");
                 break;
             default:
-                System.out.println("\nConsoante!!!" + "\n________________________");
+                System.out.println("\nConsoante!!!" + 
+                            "\n________________________");
                 break;
         }
 
