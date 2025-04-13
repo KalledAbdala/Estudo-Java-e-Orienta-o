@@ -1,7 +1,7 @@
 # Estudo-Java-e-POO
 Repositório criado para o curso de Java completo com orientação a objetos da Udemy.
 
-🚀 Projeto em Java — Aprendizado e Prática
+# 🚀 Projeto em Java — Aprendizado e Prática
 Este projeto reúne conceitos essenciais e avançados da linguagem Java, aplicados na prática ao longo do meu aprendizado. 👨‍💻✨
 
 📌 Fundamentos da linguagem:
