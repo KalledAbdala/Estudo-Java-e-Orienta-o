@@ -1,29 +1,27 @@
-# Estudo-Java-e-POO
-Repositório criado para o curso de Java completo com orientação a objetos da Udemy.
+# 📘 Estudo Java e POO
 
-# 🚀 Projeto em Java — Aprendizado e Prática
-Este projeto reúne conceitos essenciais e avançados da linguagem Java, aplicados na prática ao longo do meu aprendizado. 👨‍💻✨
+Repositório criado com base no curso de Java completo com orientação a objetos da **Udemy**.  
+Este projeto reúne conceitos essenciais e avançados da linguagem **Java**, aplicados na prática ao longo do meu aprendizado. 👨‍💻✨
 
-📌 Fundamentos da linguagem:
-🧠 Variáveis e tipos de dados
+---
 
-🔁 Estruturas de repetição: for, while, do-while
+## 🚀 Conteúdos Aprendidos e Aplicados
 
-🔀 Condicionais: if, else, switch
+### 🧠 Fundamentos da linguagem
 
-📦 Arrays e criação de funções
+- 🩷 **Variáveis e tipos de dados**
+- 🔁 **Estruturas de repetição**: `for`, `while`, `do-while`
+- 🔀 **Condicionais**: `if`, `else`, `switch`
+- 📦 **Arrays** e criação de **funções**
+- 🧱 **POO (Programação Orientada a Objetos)**
+- 🧪 **Tratamento de erros**
 
-🧱 POO (Programação Orientada a Objetos)
+### 📚 Aprofundando o conhecimento
 
-🧪 Tratamento de erros
+- 📂 **Manipulação de arquivos**
+- 💎 **Generics e Collections**
+- 🔍 **Expressões regulares**
+- 🏷️ **Annotations**
+- 🎨 **JavaFX** (interfaces gráficas)
 
-🛠️ Aprofundando o conhecimento:
-📂 Manipulação de arquivos
-
-📚 Generics e Collections
-
-🧩 Expressões regulares
-
-🏷️ Annotations
-
-🎨 JavaFX (interfaces gráficas)
+---
