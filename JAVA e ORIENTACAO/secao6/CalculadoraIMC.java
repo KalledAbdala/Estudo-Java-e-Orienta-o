@@ -15,15 +15,16 @@ public class CalculadoraIMC {
 
         double resultado = peso / (altura * altura);
 
-        if (resultado > 18.5) {
-            System.out.println("Abaixo do peso");
-        } else if(resultado >= 18.5 && resultado <= 24.9){
-            System.out.println("Peso normal");
-        } else if(resultado >= 25 && resultado < 29.9){
-            System.out.println("Sobrepeso");
-        } else{
-            System.err.println("Obesidade");
+        if (resultado < 18.5) {
+            System.out.println("Classificação: Abaixo do peso");
+        } else if (resultado < 25) {
+            System.out.println("Classificação: Peso normal");
+        } else if (resultado < 30) {
+            System.out.println("Classificação: Sobrepeso");
+        } else {
+            System.out.println("Classificação: Obesidade");
         }
+
 
     }
 }
