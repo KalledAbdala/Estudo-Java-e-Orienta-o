@@ -13,18 +13,17 @@ public class CalculadoraIMC {
         System.out.println("Digite sua altura:");
         double altura = scanner.nextDouble();
 
-        double resultado = peso / (altura * altura);
+        double imc = peso / (altura * altura);
 
-        if (resultado < 18.5) {
+        if (imc < 18.5) {
             System.out.println("Classificação: Abaixo do peso");
-        } else if (resultado < 25) {
+        } else if (imc < 25) {
             System.out.println("Classificação: Peso normal");
-        } else if (resultado < 30) {
+        } else if (imc < 30) {
             System.out.println("Classificação: Sobrepeso");
         } else {
             System.out.println("Classificação: Obesidade");
         }
-
 
     }
 }
