@@ -1,4 +1,4 @@
-# 📘 Estudo Java e POO
+# 📘 Estudo Java e POO 🤌🏽
 
 Repositório criado com base no curso de Java completo com orientação a objetos da **Udemy**.  
 Este projeto reúne conceitos essenciais e avançados da linguagem **Java**, aplicados na prática ao longo do meu aprendizado. 👨‍💻✨
