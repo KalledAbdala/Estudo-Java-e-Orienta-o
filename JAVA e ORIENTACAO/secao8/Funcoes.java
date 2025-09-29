@@ -8,6 +8,8 @@ public class Funcoes {
 
         saudar("Kalled Abdala");
 
+
+
         int d1 = dobrar(4);
         System.out.println("Primeiro dobrado: "+d1);
 
@@ -17,6 +19,14 @@ public class Funcoes {
 
         int d3 = 15;
         System.out.println("Terceiro a dobrar: "+dobrar(d3));
+
+
+        int num1 = 20;
+        String n1 = verificarPar(num1);
+        System.out.println(n1);
+
+        String n2 = verificarPar(13);
+        System.out.println(n2);
 
     }
 
@@ -36,6 +46,14 @@ public class Funcoes {
 
     public static int dobrar(int d){
         return d * 2;
+    }
+
+    public static String verificarPar(int n){
+        if (n % 2 == 0) {
+            return "O numero " + n + " eh Par";
+        } else{
+            return "O numero " + n + " eh Impar";
+        }
     }
 
 }
