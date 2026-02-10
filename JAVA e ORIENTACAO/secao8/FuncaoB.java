@@ -19,7 +19,7 @@ public class FuncaoB {
         } if (idade >= 18 && temCarteira && temHistoricoNegativo) {
             return "Meu mano, vc tem o historico negativo com o Detran";
         } else {
-            return "Vc nao tem os requisitos para o Detran";
+            return "Vc nao tem os requisitos com Detran";
         }
 
     }
