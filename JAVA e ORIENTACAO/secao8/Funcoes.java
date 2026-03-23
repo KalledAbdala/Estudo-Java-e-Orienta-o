@@ -10,6 +10,7 @@ public class Funcoes {
 
 
 
+
         int d1 = dobrar(4);
         System.out.println("Primeiro dobrado: "+d1);
 
@@ -55,5 +56,10 @@ public class Funcoes {
             return "O numero " + n + " eh Impar";
         }
     }
+
+    public static void testeGitHub(){
+        System.out.println("Teste para o github");
+    }
+// teste para github
 
 }
