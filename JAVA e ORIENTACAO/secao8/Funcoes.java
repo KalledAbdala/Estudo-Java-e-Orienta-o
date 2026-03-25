@@ -7,9 +7,7 @@ public class Funcoes {
         soma(2,4);
 
         saudar("Kalled Abdala");
-
-
-
+ 
 
         int d1 = dobrar(4);
         System.out.println("Primeiro dobrado: "+d1);
@@ -22,11 +20,12 @@ public class Funcoes {
         System.out.println("Terceiro a dobrar: "+dobrar(d3));
 
 
-        int num1 = 20;
+
+        int num1 = 64;
         String n1 = verificarPar(num1);
         System.out.println(n1);
 
-        String n2 = verificarPar(13);
+        String n2 = verificarPar(15);
         System.out.println(n2);
 
     }
@@ -38,7 +37,6 @@ public class Funcoes {
     public static void soma(int a, int b){
         int resultado = a + b;
         System.out.println("o resultado eh: " + resultado);
-        
     }
     
     public static void saudar(String nome){
@@ -57,9 +55,5 @@ public class Funcoes {
         }
     }
 
-    public static void testeGitHub(){
-        System.out.println("Teste para o github");
-    }
-// teste para github
 
 }
