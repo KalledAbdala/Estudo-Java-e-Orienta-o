@@ -55,8 +55,11 @@ public class FuncaoB {
         }
     }
 
-
-
+    /**
+     * Verifica se a senha e o usuario sao os mesmos anteriores
+     * @param usuario nome do usuario digitado anteriormente 
+     * @param senha senha digitada pelo usuario anteriormente 
+     */
     public static void verificarAutenticacao(String usuario, String senha){
         if (!usuario.equals("ADM") && !senha.equals("Senha#123")){
             System.out.println("Autenticacao falhou!");
