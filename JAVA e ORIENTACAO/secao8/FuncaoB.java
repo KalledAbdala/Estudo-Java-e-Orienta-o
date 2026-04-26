@@ -16,8 +16,10 @@ public class FuncaoB {
         System.out.println("Terceira pessoa: " + p3);
 
 
-
         System.out.println(obterDiaDaSemana(4));
+
+
+        
     }
 
     public static String verificarAcesso(int idade, boolean temCarteira, boolean temHistoricoNegativo){
