@@ -1,5 +1,3 @@
-package secao8;
-
 public class FuncaoB {
     public static void main(String[] args) {
 

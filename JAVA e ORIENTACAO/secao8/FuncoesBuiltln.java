@@ -1,4 +1,4 @@
-package secao8;
+
 
 public class FuncoesBuiltln {
     
@@ -6,6 +6,8 @@ public class FuncoesBuiltln {
         
         String frase = "Eu amo pizza de Nalope";
         System.out.println(frase.length());
+
+
 
     }
 
