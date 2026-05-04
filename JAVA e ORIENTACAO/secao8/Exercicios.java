@@ -1,9 +1,11 @@
 public class Exercicios {
 
 
-
     public static void main(String[] args) {
-        
+
+        //teste Exercicio 5
+        verificarIdade(18);
+
 
         // Exercicio 1
         double celsius = 22.0;
@@ -24,6 +26,15 @@ public class Exercicios {
         System.out.println(verificarNota(9));
         System.out.println(verificarNota(8));
         System.out.println(verificarNota(4));
+
+
+        // Exercicio 5
+        verificarIdade(18);
+
+
+        // Exercicio 6
+        int[] numeros = {10, 3, 234, 44, 23};
+        System.out.println(encontrarMaior(numeros));
 
     }
 
@@ -73,6 +84,33 @@ public class Exercicios {
             default:
                 return "F";
         }
+    }
+
+
+    // Exercicio 5
+    public static void verificarIdade(int idade){
+        if (idade < 18) {
+            System.out.println("Acesso negado");
+            System.exit(0);
+        } else {
+            System.out.println("Acesso permitido");
+        }
+    }
+
+
+    // Exercicio 6
+    public static int encontrarMaior(int[] numeros) {
+
+        int maior = numeros[0];
+
+        for(int i = 1; i < numeros.length; i++){
+            if(numeros[i] > maior){
+                maior = numeros[i];
+            }
+        }
+
+        return maior;
+
     }
 
 }
